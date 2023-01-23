@@ -7,3 +7,9 @@ function thing() {
 function bar () {
     return otherTimMadeThis
 }
+
+function hello (name) {
+    const greeting = `hello ${name}`
+    // here is a comment
+    return greeting
+}
